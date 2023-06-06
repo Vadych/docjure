@@ -1,4 +1,4 @@
-(ns dk.ative.docjure.spreadsheet
+(ns docjure.spreadsheet
   (:import
    (java.io FileOutputStream FileInputStream InputStream OutputStream)
    (java.util Date #_Calendar)
@@ -15,7 +15,8 @@
                                 IndexedColors CellStyle Font
                                 CellValue Drawing CreationHelper)
    (org.apache.poi.ss.util CellReference AreaReference))
-  (:require [clojure.java.io :as io]))
+  (:require [clojure.java.io :as io])
+  (:gen-class))
 
 
 (defmacro assert-type [value expected-type]
