@@ -15,8 +15,7 @@
                                 IndexedColors CellStyle Font
                                 CellValue Drawing CreationHelper)
    (org.apache.poi.ss.util CellReference AreaReference))
-  (:require [clojure.java.io :as io])
-  (:gen-class))
+  (:require [clojure.java.io :as io]))
 
 
 (defmacro assert-type [value expected-type]
