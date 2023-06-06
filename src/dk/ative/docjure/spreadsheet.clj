@@ -1,4 +1,4 @@
-(ns dk.ative.docjure.spreadsheet
+(ns docjure.spreadsheet
   (:import
    (java.io FileOutputStream FileInputStream InputStream OutputStream)
    (java.util Date #_Calendar)

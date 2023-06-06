@@ -1,1 +1,1 @@
-(ns dk.ative.docjure.core)
+(ns docjure.core)
